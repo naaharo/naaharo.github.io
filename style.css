@@ -67,19 +67,16 @@ body {
   .menu {
     position: sticky;
     top: 0px;
-    padding: 30px;
+    padding: 50px;
     background-color: #2d333b;
     border-style: groove;
     border-bottom-right-radius: 60px; 
     border-bottom-left-radius: 60px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    transition: position 3s;
   }
   .indice {
     margin: 20px;
-    position: relative;
-    left: 300px;
     color: #adbac7;
     text-decoration: none;
     font-size: 30px;
@@ -87,6 +84,15 @@ body {
     background-color:  #22272e;
     padding: 10px 30px;
     border-radius: 100px;
+    transition: width 1s ease 0.25s, hight 1s ease 0.25s, font-size 1s ease 0.25s;
+  }
+  .a4 {
+    left: 100px;
+  }
+  .indice:hover {
+    width: 40px;
+    height: 30px;
+    font-size: 40px;
   }
   .lista {
     color: #909dab;
