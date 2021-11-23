@@ -1,0 +1,106 @@
+body {
+    background-color: #22272e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #adbac7;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .linkp {
+    color: #539bf5;
+    font-style: italic;
+    text-decoration: none;
+  }
+  h1 {
+    background-color: #2d333b;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 400;
+  }
+  #titulo {
+    color: #768390;
+    font-size: 60px;
+    font-family: 'Prompt', sans-serif;
+  }
+  .fotoCorpo {
+    position: relative;
+    margin: 50px;
+    padding: 50px;
+    background-color: #2d333b;
+    left: 1%;
+    top: 0%;
+    transition: width 2s ease-in-out 0.25s;
+  }
+  .fotoCorpo:hover{
+    width: 300px;
+  }
+  .fotoPerfil {
+    position: relative;
+    margin-bottom: 100px;
+    padding: 50px;
+    background-color: #2d333b;
+    left: 3%;
+    transition: width 2s ease-in-out 0.25s, margin-bottom 2s ease-in-out 0.25s;
+  }
+  .fotoPerfil:hover {
+    width: 300px;
+    margin-bottom: 0px;
+  }
+  #listaG {
+    color: #adbac7;
+    font-size: 30px;
+    font-style: italic;
+  }
+  .info {
+    position: absolute;
+    padding: 50px;
+    background-color: #2d333b;
+    bottom:21%;
+    left: 50%;
+    transition: width 2s ease-in 0.25s, height 2s ease-in 0.25s, font-weight 2s ease 0.25;
+  }
+  .info:hover {
+    font-weight: bolder;
+    width: 750px;
+    height: 300px;
+  }
+  .menu {
+    position: sticky;
+    top: 0px;
+    padding: 30px;
+    background-color: #2d333b;
+    border-style: groove;
+    border-bottom-right-radius: 60px; 
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: position 3s;
+  }
+  .indice {
+    margin: 20px;
+    position: relative;
+    left: 300px;
+    color: #adbac7;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    background-color:  #22272e;
+    padding: 10px 30px;
+    border-radius: 100px;
+  }
+  .lista {
+    color: #909dab;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .subT {
+    font-size: 2em;
+    font-family: 'Prompt', sans-serif;
+  }
+  .miniT {
+    font-size: 30px;
+    font-family: 'Prompt', sans-serif;
+    font-style: italic;
+  }
+  
