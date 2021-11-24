@@ -3,14 +3,16 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #adbac7;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 3%;
+    margin-right: 3%;
   }
   .linkp {
     color: #539bf5;
     font-style: italic;
     text-decoration: none;
   }
+
+  /* Título */
   h1 {
     background-color: #2d333b;
     text-align: center;
@@ -22,52 +24,55 @@ body {
     font-size: 60px;
     font-family: 'Prompt', sans-serif;
   }
-  .fotoCorpo {
-    position: relative;
-    margin: 50px;
-    padding: 50px;
-    background-color: #2d333b;
-    left: 1%;
-    top: 0%;
-    transition: width 2s ease-in-out 0.25s;
+
+  /* Apresentação */
+  .apresentas {
+    text-align: center;
   }
-  .fotoCorpo:hover{
+  .fotoCorpo {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #2d333b;
+    padding: 70px;
+    transition: width 1.5s ease-out, height 1.5s ease-out, background-color 1s ease-in;
+  }
+  .fotoCorpo:hover {
     width: 300px;
+    background-color: #22272e;
   }
   .fotoPerfil {
-    position: relative;
-    margin-bottom: 100px;
-    padding: 50px;
+    display: inline-block;
+    vertical-align: middle;
     background-color: #2d333b;
-    left: 3%;
-    transition: width 2s ease-in-out 0.25s, margin-bottom 2s ease-in-out 0.25s;
+    padding: 70px;
+    transition: width 1.5s ease-out, height 1.5s ease-out, background-color 1s ease-in;
   }
   .fotoPerfil:hover {
     width: 300px;
-    margin-bottom: 0px;
+    background-color: #22272e;
   }
-  #listaG {
+  .info {
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #2d333b;
+    padding: 70px;
     color: #adbac7;
     font-size: 30px;
     font-style: italic;
-  }
-  .info {
-    position: absolute;
-    padding: 50px;
-    background-color: #2d333b;
-    bottom:21%;
-    left: 50%;
-    transition: width 2s ease-in 0.25s, height 2s ease-in 0.25s, font-weight 2s ease 0.25;
+    align-items: center;
+    transition: background-color 1s ease-in font-weight 0.5s ease-out;
   }
   .info:hover {
-    font-weight: bolder;
-    width: 750px;
-    height: 300px;
+    font-weight: bold;
+    background-color: #22272e;
   }
+  /* Menu Sticky */
   .menu {
     position: sticky;
     top: 0px;
-    padding: 50px;
+    clear: both;
+    padding: 30px;
     background-color: #2d333b;
     border-style: groove;
     border-bottom-right-radius: 60px; 
@@ -75,25 +80,31 @@ body {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
   }
-  .indice {
-    margin: 20px;
+  .indice a {
+    margin: 10px;
     color: #adbac7;
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: bold;
-    background-color:  #22272e;
     padding: 10px 30px;
     border-radius: 100px;
-    transition: width 1s ease 0.25s, hight 1s ease 0.25s, font-size 1s ease 0.25s;
+    text-decoration: none;
+    background-color:  #22272e;
+    transition: width 1s ease 0.25s, hight 1s ease, font-size 1s ease;
+  }
+  .a1 {
+    display: inline-block;
+  }
+  .a2 {
+    display: inline-block;
+  }
+  .a3 {
+    display: inline-block;
   }
   .a4 {
-    left: 100px;
+    float: right;
   }
   .indice:hover {
-    width: 40px;
-    height: 30px;
-    font-size: 40px;
+    font-size: 30px;
   }
+  /* Resto do corpo */
   .lista {
     color: #909dab;
     font-size: 25px;
