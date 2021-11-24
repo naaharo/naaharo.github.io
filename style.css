@@ -3,112 +3,109 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #adbac7;
-    margin-left: 3%;
-    margin-right: 3%;
   }
-  .linkp {
+  p a {
     color: #539bf5;
     font-style: italic;
     text-decoration: none;
   }
 
-  /* Título */
-  h1 {
+  /* Header */
+  .header {
     background-color: #2d333b;
     text-align: center;
-    font-size: 4em;
-    font-weight: 400;
+    font-size: 120px;
+    font-weight: bolder;
+    margin: 50px 13%;
+    border-radius: 50px ;
   }
-  #titulo {
+  .nome{
     color: #768390;
-    font-size: 60px;
+    font-size: 100px;
     font-family: 'Prompt', sans-serif;
   }
 
-  /* Apresentação */
-  .apresentas {
-    text-align: center;
-  }
-  .fotoCorpo {
-    display: inline-block;
-    vertical-align: middle;
-    background-color: #2d333b;
-    padding: 70px;
-    transition: width 1.5s ease-out, height 1.5s ease-out, background-color 1s ease-in;
-  }
-  .fotoCorpo:hover {
-    width: 300px;
-    background-color: #22272e;
-  }
-  .fotoPerfil {
-    display: inline-block;
-    vertical-align: middle;
-    background-color: #2d333b;
-    padding: 70px;
-    transition: width 1.5s ease-out, height 1.5s ease-out, background-color 1s ease-in;
-  }
-  .fotoPerfil:hover {
-    width: 300px;
-    background-color: #22272e;
-  }
-  .info {
-    text-align: left;
-    display: inline-block;
-    vertical-align: middle;
-    background-color: #2d333b;
-    padding: 70px;
-    color: #adbac7;
-    font-size: 30px;
-    font-style: italic;
-    align-items: center;
-    transition: background-color 1s ease-in font-weight 0.5s ease-out;
-  }
-  .info:hover {
-    font-weight: bold;
-    background-color: #22272e;
-  }
-  /* Menu Sticky */
+  /* Nav Sticky */
   .menu {
     position: sticky;
     top: 0px;
-    clear: both;
-    padding: 30px;
     background-color: #2d333b;
-    border-style: groove;
+    border-style: double;
+    border-color: #768390;
+    border-width: 5px;
     border-bottom-right-radius: 60px; 
     border-bottom-left-radius: 60px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    margin-bottom: 30px;
   }
-  .indice a {
-    margin: 10px;
-    color: #adbac7;
+  .navlinks li {
+    display: inline-block;
+    border-radius: 60px;
     padding: 10px 30px;
-    border-radius: 100px;
-    text-decoration: none;
+    margin-right: 30px;
     background-color:  #22272e;
     transition: width 1s ease 0.25s, hight 1s ease, font-size 1s ease;
   }
-  .a1 {
+  .navlinks li:hover {
+    font-size: 23px;
+  }
+  .navlinks li a {
+    text-decoration: none;
+    color: #adbac7;
+    transition: color 0.5s ease;
+  }
+  .navlinks li a:hover{
+    color: white;
+  }
+  #inicio {
+    margin-left: 830px;
+    margin-right: 0px;
+  }
+
+  /* Main */
+  .section {
+    margin: 0 70px;
+  }
+  /* Main-Apresentação */
+  .apresentas {
+    text-align: center;
+  }
+  .foto {
     display: inline-block;
+    margin: 30px;
+    padding: 50px;
+    background-color: #2d333b;
+    vertical-align: middle;
+    transition: background-color 1s ease, font-size 1.5s ease, font-weight 1s ease;
   }
-  .a2 {
-    display: inline-block;
+  .info {
+    text-align: left;
+    font-size: 25px;
   }
-  .a3 {
-    display: inline-block;
+  .corpo {
+    transition: width 1.5s ease-out; 
   }
-  .a4 {
-    float: right;
+  .perfil {
+    transition: width 1.5s ease-out; 
   }
-  .indice:hover {
-    font-size: 30px;
+  .foto:hover:hover {
+    font-size: 35px;
+    font-weight: bolder;
+    background-color: #22272e;
   }
-  /* Resto do corpo */
+  .corpo:hover {
+    width: 400px;
+  }
+  .perfil:hover {
+    width: 400px;
+  }
+  
+  /* Main-Texto */
   .lista {
     color: #909dab;
     font-size: 25px;
-    font-weight: 400;
+    font-weight: bold;
     font-style: italic;
   }
   .subT {
