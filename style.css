@@ -19,7 +19,7 @@ body {
     margin: 50px 13%;
     border-radius: 50px ;
   }
-  .nome{
+  .nome {
     color: #768390;
     font-size: 100px;
     font-family: 'Prompt', sans-serif;
@@ -59,7 +59,7 @@ body {
     color: white;
   }
   #inicio {
-    margin-left: 830px;
+    margin-left: 740px;
     margin-right: 0px;
   }
 
