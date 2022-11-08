@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu Portifólio</title>
+    <title>Portifólio - Natã</title>
 
     <!-- Links -->
     <link rel="stylesheet" type="text/css" href="style.css" />
@@ -23,10 +23,11 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
 
     <!-- Header -->
-    <header class="header" id="topo">Portifólio <br/>
+    <header class="header" id="topo">Portifólio em Construção<br/>
       <em class="nome">Natã Abrahão Rodrigues</em>
     </header>
 
@@ -34,7 +35,10 @@
     <nav class="menu">
       <ul class="navlinks">
       
-        <li><a href="#feitosG" >Feitos Grandiosos</a></li>
+        <li>
+          <!-- <button type="button" class="navBtn" id="feitosBtn">Feitos Grandiosos</button> -->
+          <a href="#feitosG" >Feitos Grandiosos</a>
+        </li>
 
         <li><a href="#qualidG">Qualidades Grandiosas</a></li>
 
@@ -50,20 +54,20 @@
       <article>
         <section class="apresentas">
 
-          <figure class="foto">
+          <!-- <figure class="foto">
             <img class="corpo" src="eu_em_pe.png" alt="A foto mostra o Natã em pé olhando para frente com uma postura confiante com a iluminaçã vindo apenas de seu lado esquerdo" width="200px"/>
-          </figure>
+          </figure> -->
           <figure class="foto">  
             <img class="perfil" src="./foto_de_perfil.jpeg" alt="Foto do rosto do Natã, de frente, como uma foto de perfil" width="200px"
             />
           </figure>  
 
           <ul class="foto info">
-            <li>Nascimento: 26 de Setembro de 2000 - 21 anos;</li>
+            <li>Nascimento: 26 de Setembro de 2000;</li>
             <br/>
             <li>Nascido e criado em Curitiba, Paraná, Brasil;</li>
             <br/>
-            <li>Estudante;</li>
+            <li>Estudante de Desenvolvimento Web na Trybe;</li>
           </ul>
         </section>
 
@@ -88,20 +92,10 @@
         <!-- Main-Section 2 -->
         <section class="section n2">
           <h2 id="qualidG" class="subT">
-            <strong><em>Qualidades Grandiosas</em></strong>
+            <strong><em>Qualidades</em></strong>
           </h2>
 
-          <ul class="lista">
-            <li>Paciente;</li>
-            <li>Muita facilidade de aprendizagem;</li>
-            <li>Um bom ouvinte;</li>
-            <li>Fácil convivência e relacionamento;</li>
-            <li>Disposto a ouvir e aplicar feedbacks e novas ideias;</li>
-            <li>Sempre busco fazer além do que foi proposto;</li>
-            <li>Pressão e críticas não me abalam, me fazem buscar a melhora;</li>
-            <li>Sempre busco resolver diferenças de ideias e opiniões de forma calma e através do diálogo;</li>
-            <li>Procuro sempre demontrar bom humor e tranquilidade não importando a situação;</li>
-          </ul>
+          <ul class="lista" id="qualityList"></ul>
         </section>
 
         <!-- Main-Section 3 -->
@@ -151,6 +145,9 @@
           </p>
         </section>
       </article>  
-    </main>    
+    </main>
+    
+    <script src="script.js"></script>
+
   </body>
 </html>
