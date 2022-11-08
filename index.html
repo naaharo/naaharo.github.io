@@ -7,147 +7,126 @@
     <title>Portifólio - Natã</title>
 
     <!-- Links -->
-    <link rel="stylesheet" type="text/css" href="style.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,700;1,900&family=Roboto:ital,wght@0,100;0,400;1,400;1,900&display=swap"
-      rel="stylesheet"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+    <!-- <link rel="stylesheet" type="text/css" href="style.css" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   </head>
 
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navBar" tabindex="0">
 
-    <!-- Header -->
-    <header class="header" id="topo">Portifólio em Construção<br/>
-      <em class="nome">Natã Abrahão Rodrigues</em>
-    </header>
-
+    <h1>Portifólio em Construção</h1>
     <!-- Nav Sticky -->
-    <nav class="menu">
-      <ul class="navlinks">
-      
-        <li>
-          <!-- <button type="button" class="navBtn" id="feitosBtn">Feitos Grandiosos</button> -->
-          <a href="#feitosG" >Feitos Grandiosos</a>
-        </li>
-
-        <li><a href="#qualidG">Qualidades Grandiosas</a></li>
-
-        <li><a href="#habiliG">Habilidades Grandiosas</a></li>
-  
-        <li id="inicio"><a href="#topo">Início</a></li>
-
-      </ul>  
+    <nav id="navBar" class="sticky-sm-top navbar bg-light px-3 mb-3 ">
+      <span class="navbar-brand">Em Construção</span>
+      <div class="nav nav-pills">
+        <a class="nav-link active" aria-current="page" href="#apresent">Apresentação</a>
+        <a class="nav-link" href="#feitos">Feitos Grandiosos</a>
+        <a class="nav-link" href="#qualidades">Qualidades Grandiosas</a>
+        <a class="nav-link" href="#habilidades">Habilidades Grandiosas</a>  
+      </div>
     </nav>
 
     <!-- Main-Apresentação -->
-    <main class="main">
-      <article>
-        <section class="apresentas">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+      <main class="main">
+        <article>
+          <section id="#apresent" class="apresentas">
+            <!-- <figure class="foto">
+              <img class="corpo" src="eu_em_pe.png" alt="A foto mostra o Natã em pé olhando para frente com uma postura confiante com a iluminaçã vindo apenas de seu lado esquerdo" width="200px"/>
+            </figure> -->
+            <figure id="#scrollspyHeading1" class="foto">  
+              <img class="perfil" src="./foto_de_perfil.jpeg" alt="Foto do rosto do Natã, de frente, como uma foto de perfil" width="200px"
+              />
+            </figure>  
 
-          <!-- <figure class="foto">
-            <img class="corpo" src="eu_em_pe.png" alt="A foto mostra o Natã em pé olhando para frente com uma postura confiante com a iluminaçã vindo apenas de seu lado esquerdo" width="200px"/>
-          </figure> -->
-          <figure class="foto">  
-            <img class="perfil" src="./foto_de_perfil.jpeg" alt="Foto do rosto do Natã, de frente, como uma foto de perfil" width="200px"
-            />
-          </figure>  
+            <ul class="foto info">
+              <li>Nascimento: 26 de Setembro de 2000;</li>
+              <br/>
+              <li>Nascido e criado em Curitiba, Paraná, Brasil;</li>
+              <br/>
+              <li>Estudante de Desenvolvimento Web na Trybe;</li>
+            </ul>
+          </section>
 
-          <ul class="foto info">
-            <li>Nascimento: 26 de Setembro de 2000;</li>
-            <br/>
-            <li>Nascido e criado em Curitiba, Paraná, Brasil;</li>
-            <br/>
-            <li>Estudante de Desenvolvimento Web na Trybe;</li>
-          </ul>
-        </section>
+          <!-- Main-Section 1 -->
+        
+          <section class="section n1">
+            <h2 id="#scrollspyHeading2" class="subT">
+              <strong><em>Feitos Grandiosos</em></strong>
+            </h2>
 
-        <!-- Main-Section 1 -->
-      
-        <section class="section n1">
-          <h2 id="feitosG" class="subT">
-            <strong><em>Feitos Grandiosos</em></strong>
-          </h2>
+            <p>
+              Aos oito anos, comecei a praticar voleibol, o que levou aos meus 11 anos, quando entrei em um time local de Curitiba: 
+              <a href="https://www.avp.org.br/" target="_blank">AVP (Associação de Voleibol do Paraná)</a>. Nesse tempo
+              em que participei do time, dos 11 aos 14 anos, conheci pessoas de gostos e características, dos mais variados. Aprendi a lidar com vitórias árduas assim como derrotas frustrantes; aprendi a lidar com a pressão de o resultado depender de você e mais ninguém; aprendi que o esforço e dedicação vale a pena no fim do dia e que nada disso é possível sem uma boa relação com sua equipe, tanto quem está ao seu lado, quanto quem está acima. Comunicação é essencial.
+            </p>
 
-          <p>
-            Aos oito anos, comecei a praticar voleibol, o que levou aos meus 11 anos, quando entrei em um time local de Curitiba: 
-            <a href="https://www.avp.org.br/" target="_blank">AVP (Associação de Voleibol do Paraná)</a>. Nesse tempo
-            em que participei do time, dos 11 aos 14 anos, conheci pessoas de gostos e características, dos mais variados. Aprendi a lidar com vitórias árduas assim como derrotas frustrantes; aprendi a lidar com a pressão de o resultado depender de você e mais ninguém; aprendi que o esforço e dedicação vale a pena no fim do dia e que nada disso é possível sem uma boa relação com sua equipe, tanto quem está ao seu lado, quanto quem está acima. Comunicação é essencial.
-          </p>
+            <p>
+              Começei o ensino médio fazendo o curso técnico integrado em Petróleo e Gás no <a href="http://www.sept.ufpr.br/portal/" target="_blank">SEPT-UFPR</a>, poŕem a área não me chamou a atenção e eu mudei para o curso técnico em eletrônica na <a href="http://www.utfpr.edu.br/" target="_blank" >UTFPR (Universidade Tecnológica Federal do Paraná)</a>. A área de atuação me chamou a atenção, porém quando iniciei as aulas de programação meu olhos brilharam e eu decidi me aprofundar nisso e deixar de lado a eletrônica. Fiz a prova do <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/encceja" target="_blank">Encceja</a> para adiantar os estudos e participei do teste de seleção da <a href="https://www.betrybe.com/" target="_blank">Trybe</a>. Adquiri conhecimento e algumas habilidades técnicas nas áreas de ambos os cursos técnicos em que eu estudei brevemente e , pelo alto nível de ensino e dificuldade, aprendi a pedir ajuda <em>(algo que não era muito do meu perfil)</em>, a estudar sériamente <em>(pois nunca precisei de fato estudar para ir bem na escola)</em> e descobri diversas formas de ensinar e aprender.
+            </p>
+          </section>
 
-          <p>
-            Começei o ensino médio fazendo o curso técnico integrado em Petróleo e Gás no <a href="http://www.sept.ufpr.br/portal/" target="_blank">SEPT-UFPR</a>, poŕem a área não me chamou a atenção e eu mudei para o curso técnico em eletrônica na <a href="http://www.utfpr.edu.br/" target="_blank" >UTFPR (Universidade Tecnológica Federal do Paraná)</a>. A área de atuação me chamou a atenção, porém quando iniciei as aulas de programação meu olhos brilharam e eu decidi me aprofundar nisso e deixar de lado a eletrônica. Fiz a prova do <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/encceja" target="_blank">Encceja</a> para adiantar os estudos e participei do teste de seleção da <a href="https://www.betrybe.com/" target="_blank">Trybe</a>. Adquiri conhecimento e algumas habilidades técnicas nas áreas de ambos os cursos técnicos em que eu estudei brevemente e , pelo alto nível de ensino e dificuldade, aprendi a pedir ajuda <em>(algo que não era muito do meu perfil)</em>, a estudar sériamente <em>(pois nunca precisei de fato estudar para ir bem na escola)</em> e descobri diversas formas de ensinar e aprender.
-          </p>
-        </section>
+          <!-- Main-Section 2 -->
+          <section class="section n2">
+            <h2 id="#scrollspyHeading3" class="subT">
+              <strong><em>Qualidades</em></strong>
+            </h2>
 
-        <!-- Main-Section 2 -->
-        <section class="section n2">
-          <h2 id="qualidG" class="subT">
-            <strong><em>Qualidades</em></strong>
-          </h2>
+            <ul class="lista" id="qualityList"></ul>
+          </section>
 
-          <ul class="lista" id="qualityList"></ul>
-        </section>
+          <!-- Main-Section 3 -->
+          <section class="section n3">
+            <h2 id="#scrollspyHeading4" class="subT">
+              <strong><em>Habilidades Grandiosas</em></strong>
+            </h2>
 
-        <!-- Main-Section 3 -->
-        <section class="section n3">
-          <h2 id="habiliG" class="subT">
-            <strong><em>Habilidades Grandiosas</em></strong>
-          </h2>
+            <h3 class="miniT">Esportes</h3>
 
-          <h3 class="miniT">Esportes</h3>
+            <p>
+              Como foi mencionado na sessão
+              <a href="#feitosG" class="linkp"><em>Feitos Grandiosos</em></a
+              >, pratiquei esporte regularmente durante um bom período de minha vida, eu
+              sempre me adaptei em qualquer esporte, mesmo não sendo o melhor em todos,
+              também nunca tive problema com nenhum.
+            </p>
 
-          <p>
-            Como foi mencionado na sessão
-            <a href="#feitosG" class="linkp"><em>Feitos Grandiosos</em></a
-            >, pratiquei esporte regularmente durante um bom período de minha vida, eu
-            sempre me adaptei em qualquer esporte, mesmo não sendo o melhor em todos,
-            também nunca tive problema com nenhum.
-          </p>
+            <h3 class="miniT">Música</h3>
 
-          <h3 class="miniT">Música</h3>
+            <p>
+              Sempre gostei de <em>"brincar"</em> com instrumentos musicais, então tenho
+              facilidade para aprender novos instrumentos. O primeiro que aprendi foi
+              violão, depois veio a bateria e então um pouco de teclado. Arranho no
+              violoncelo e instrumentos de sopro, mas o mais tocado atualmente é a
+              bateria.
+            </p>
 
-          <p>
-            Sempre gostei de <em>"brincar"</em> com instrumentos musicais, então tenho
-            facilidade para aprender novos instrumentos. O primeiro que aprendi foi
-            violão, depois veio a bateria e então um pouco de teclado. Arranho no
-            violoncelo e instrumentos de sopro, mas o mais tocado atualmente é a
-            bateria.
-          </p>
+            <h3 class="miniT">Lógica e Quebra-Cabeças</h3>
 
-          <h3 class="miniT">Lógica e Quebra-Cabeças</h3>
+            <p>
+              Desde pequeno meus pais me incentivavam a desenvolvar raciocínio lógico
+              com perguntas e jogos, assim como sempre compraram quebra-cabeças de
+              diversos tipos e formas. Como consequência desenvolvi um gosto por
+              desafios relácionados a isso e sempre procuro por novos jogos e formas de
+              me desenvolver nesse quesito.
+            </p>
 
-          <p>
-            Desde pequeno meus pais me incentivavam a desenvolvar raciocínio lógico
-            com perguntas e jogos, assim como sempre compraram quebra-cabeças de
-            diversos tipos e formas. Como consequência desenvolvi um gosto por
-            desafios relácionados a isso e sempre procuro por novos jogos e formas de
-            me desenvolver nesse quesito.
-          </p>
+            <h3 class="miniT">Ensino</h3>
 
-          <h3 class="miniT">Ensino</h3>
-
-          <p>
-            Com a necessidade de um professor para dar aula de bateria para crianças e
-            adolecentes, me propus ao desafio e acabei desenvolvendo um pouco essa
-            habilidade. Além disso sempre ajudei meu irmão mais novo em seus deveres
-            da escola. Essas situações me ensinaram a adaptar a abordagem dependendo
-            da pessoa e da nessecidade.
-          </p>
-        </section>
-      </article>  
-    </main>
+            <p>
+              Com a necessidade de um professor para dar aula de bateria para crianças e
+              adolecentes, me propus ao desafio e acabei desenvolvendo um pouco essa
+              habilidade. Além disso sempre ajudei meu irmão mais novo em seus deveres
+              da escola. Essas situações me ensinaram a adaptar a abordagem dependendo
+              da pessoa e da nessecidade.
+            </p>
+          </section>
+        </article>
+      </main>
+    </div>  
     
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 
   </body>
 </html>
