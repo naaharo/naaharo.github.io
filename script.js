@@ -5,6 +5,7 @@ const qualityArray = [
   'Disposto a ouvir e aplicar feedbacks e novas ideias;',
   'Facilidade em mediar discuções de grupo;',
   'Bom humor e tranquilidade constante;',
+  'Inglês intermediário/avançado'
 ];
 
 let qualList = document.getElementById('qualityList');

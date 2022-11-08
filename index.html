@@ -8,46 +8,47 @@
   <title>Portifólio - Natã</title>
 
   <!-- Links -->
-  <!-- <link rel="stylesheet" type="text/css" href="style.css" /> -->
+  <link rel="stylesheet" type="text/css" href="style.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navBar" tabindex="0">
+<body>
   <!-- Nav Sticky -->
   <nav id="navBar" class="sticky-sm-top navbar bg-light px-3 mb-3 ">
     <span class="navbar-brand">Portifólio em Construção</span>
     <div class="nav nav-pills">
-      <a class="nav-link active" aria-current="page" href="#apresent">Apresentação</a>
-      <a class="nav-link" href="#feitos">Feitos Grandiosos</a>
-      <a class="nav-link" href="#qualidades">Qualidades Grandiosas</a>
-      <a class="nav-link" href="#habilidades">Habilidades Grandiosas</a>
+      <a class="nav-link active" aria-current="page" href="#profileCard">Apresentação</a>
+      <a class="nav-link" href="#exp">Experiências</a>
+      <a class="nav-link" href="#qualidades">Qualidades</a>
+      <a class="nav-link" href="#projetos">Projetos</a>
     </div>
   </nav>
 
-  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" lass="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+  <div id="mainDiv" data-bs-spy="scroll" data-bs-target="#navBar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
 
     <!-- Card de Apresentação -->
-    <div id="apresent" class="card" style="width: 18rem;">
+    <div id="profileCard" class="card" style="width: 18rem;">
       <img src="./foto_de_perfil.jpeg" alt="foto de perfil" class="card-img-top" />
       <div class="card-body">
         <h5 class="card-title">Natã Abrahão Rodrigues</h5>
-        <p class="card-text">Nasceu em 26 de Setembro de 2000 em Curitiba, Paraná, Brasil. Atualmente é estudante de Desenvolvimento Web na Trybe</p>
+        <p class="card-text">Nasceu em 26 de Setembro de 2000 em Curitiba, Paraná, Brasil. Atualmente é estudante de
+          Desenvolvimento Web na Trybe</p>
         <a href="https://www.linkedin.com/in/naaharo/" target="_blank" class="btn btn-primary">LinkedIn</a>
       </div>
     </div>
 
     <!-- Feitos -->
-    <div id="feitos">
-      <h2>Feitos Grandiosos</h2>
+    <div id="exp">
+      <h2>Experiências</h2>
 
       <p>
         Aos oito anos, comecei a praticar voleibol, o que levou aos meus 11 anos, quando entrei em um time local de
         Curitiba:
         <a href="https://www.avp.org.br/" target="_blank">AVP (Associação de Voleibol do Paraná)</a>. Nesse tempo
         em que participei do time, dos 11 aos 14 anos, conheci pessoas de gostos e características, dos mais variados.
-        Aprendi a lidar com vitórias árduas assim como derrotas frustrantes; aprendi a lidar com a pressão de o
-        resultado depender de você e mais ninguém; aprendi que o esforço e dedicação vale a pena no fim do dia e que
+        Aprendi a lidar com vitórias árduas assim como derrotas frustrantes, aprendi a lidar com a pressão de o
+        resultado depender de você e mais ninguém, aprendi que o esforço e dedicação vale a pena no fim do dia e que
         nada disso é possível sem uma boa relação com sua equipe, tanto quem está ao seu lado, quanto quem está acima.
         Comunicação é essencial.
       </p>
@@ -61,65 +62,28 @@
         eletrônica. Fiz a prova do <a
           href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/encceja"
           target="_blank">Encceja</a> para adiantar os estudos e participei do teste de seleção da <a
-          href="https://www.betrybe.com/" target="_blank">Trybe</a>. Adquiri conhecimento e algumas habilidades
-        técnicas nas áreas de ambos os cursos técnicos em que eu estudei brevemente e , pelo alto nível de ensino e
-        dificuldade, aprendi a pedir ajuda <em>(algo que não era muito do meu perfil)</em>, a estudar sériamente
-        <em>(pois nunca precisei de fato estudar para ir bem na escola)</em> e descobri diversas formas de ensinar e
-        aprender.
+          href="https://www.betrybe.com/" target="_blank">Trybe</a>. Durante esse período até o momento, além das
+        habilidades técnicas, venho buscando aprimorar a comunicação, trabalho em equipe, liderança e ser liderado. Aprender coisas por conta própria e buscar novas formas de resolver problemas foi uma das principais coisas que aprendi e venho aprendendo durande o período estudando na Trybe.
+      </p>
+
+      <p>
+        Tendo como única pequena experiência lecionar bateria para crianças e adolecentes durante 5 a 7 meses, parando por conta da pândemia, estou buscando iniciar minha carreira profissional na área de tecnologia.
       </p>
     </div>
 
-      <!-- Qualidades -->
-      <div id="qualidades">
-        <h2>Qualidades</h2>
+    <!-- Qualidades -->
+    <div id="qualidades">
+      <h2>Qualidades</h2>
 
-        <ul class="lista" id="qualityList"></ul>
-      </div>
+      <ul id="qualityList"></ul>
+    </div>
 
-      <!-- Habilidades -->
-      <div id="habilidades">
-        <h2>Habilidades Grandiosas</h2>
+    <!-- Habilidades -->
+    <div id="projetos">
+      <h2>Projetos</h2>
 
-        <h3 class="miniT">Esportes</h3>
-
-        <p>
-          Como foi mencionado na sessão
-          <a href="#feitosG" class="linkp"><em>Feitos Grandiosos</em></a>, pratiquei esporte regularmente durante um bom
-          período de minha vida, eu
-          sempre me adaptei em qualquer esporte, mesmo não sendo o melhor em todos,
-          também nunca tive problema com nenhum.
-        </p>
-
-        <h3 class="miniT">Música</h3>
-
-        <p>
-          Sempre gostei de <em>"brincar"</em> com instrumentos musicais, então tenho
-          facilidade para aprender novos instrumentos. O primeiro que aprendi foi
-          violão, depois veio a bateria e então um pouco de teclado. Arranho no
-          violoncelo e instrumentos de sopro, mas o mais tocado atualmente é a
-          bateria.
-        </p>
-
-        <h3 class="miniT">Lógica e Quebra-Cabeças</h3>
-
-        <p>
-          Desde pequeno meus pais me incentivavam a desenvolvar raciocínio lógico
-          com perguntas e jogos, assim como sempre compraram quebra-cabeças de
-          diversos tipos e formas. Como consequência desenvolvi um gosto por
-          desafios relácionados a isso e sempre procuro por novos jogos e formas de
-          me desenvolver nesse quesito.
-        </p>
-
-        <h3 class="miniT">Ensino</h3>
-
-        <p>
-          Com a necessidade de um professor para dar aula de bateria para crianças e
-          adolecentes, me propus ao desafio e acabei desenvolvendo um pouco essa
-          habilidade. Além disso sempre ajudei meu irmão mais novo em seus deveres
-          da escola. Essas situações me ensinaram a adaptar a abordagem dependendo
-          da pessoa e da nessecidade.
-        </p>
-      </div>
+      <h5>Alguns projetos construidos durante os estudos na Trybe</h5>
+    </div>
   </div>
 
   <script src="script.js"></script>
